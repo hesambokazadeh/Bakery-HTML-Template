@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/images/logo-small.png" />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/91abd10b8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>JoyBakery | Desserts</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-5" href="/"
+          ><img src="/assets/images/logo-horizontal.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto px-5">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Product Categories 
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/bread.html">Bread</a>
+                <a class="dropdown-item" href="/cake.html">Cake</a>
+                <a class="dropdown-item" href="/pastries.html">Pastries</a>
+                <a class="dropdown-item" href="/dessert.html">Desserts</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- HEADER -->
+    <header id="dessert-header">
+      <div class="m-auto">
+        <h1 class="display-1">Desserts</h1>
+      </div>
+    </header>
+
+    <div class="container-fluid text-center product-container dessert">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert1.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Strawberry Icecream<br />
+            $5.35
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert2.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Assorted Cupcakes<br />
+            $3.59
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert3.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Chocolate Cookies<br />
+            $1.99
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert4.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Special Chocolate Desserts<br />
+            $5.66
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert5.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Assorted Mini Cupcakes<br />
+            $1.59
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert6.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Chocolate Icecream Cake<br />
+            $7.99
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert7.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Glazed Doughnuts<br />
+            $1.59
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert8.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Assorted Macaron<br />
+            $1.99
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODALS -->
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal1"
+      aria-hidden="true"
+      id="dessertModal1"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Strawberry Icecream
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert1.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $5.35</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal2"
+      aria-hidden="true"
+      id="dessertModal2"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Assorted Cupcakes
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert2.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $3.59</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal3"
+      aria-hidden="true"
+      id="dessertModal3"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Chocolate Cookies
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert3.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $1.99</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal4"
+      aria-hidden="true"
+      id="dessertModal4"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Special Chocolate Desserts
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert4.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $5.66</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal5"
+      aria-hidden="true"
+      id="dessertModal5"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Assorted Mini Cupcakes
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert5.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $1.59</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal6"
+      aria-hidden="true"
+      id="dessertModal6"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Chocolate Icecream Cake
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert6.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $7.99</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal7"
+      aria-hidden="true"
+      id="dessertModal7"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Glazed Doughnuts
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert7.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $1.59</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal8"
+      aria-hidden="true"
+      id="dessertModal8"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Assorted Macaron
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert8.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $1.99</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+    <h2>Get In Touch With US</h2>
+     <form class="contact_us_form" autocomplete="no">
+         <fieldset>
+             <section>
+                 <label for="name">Name
+                 </label>
+                 <input type="text" id="name" />
+                 
+             </section>
+             <section>
+                 <label for="email">Email
+                 </label>
+                 <input type="email" id="email" />
+                 
+             </section>
+             <section>
+                 <label for="title">Title
+                 </label>
+                 <input type="text" id="title" />
+                 
+                 
+             </section>
+             <section>
+                 <label for="message">Message
+                 </label>
+                 <textarea type="text" id="message" ></textarea>
+                 
+             </section>
+               <section>
+             
+                 <button type="submit" >Submit</button>
+                 
+             </section>
+         </fieldset>
+     </form>
+      <div id="contacts" class="container-fluid">
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-12">
+            <h4>Contact Us</h4>
+            <p>
+              example@hesambakery.com <br />
+              +98-555-55-555
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <h4>Visit Us</h4>
+            <p>
+              221 Kashan St., Tehran, Iran
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <h4>Follow Us</h4>
+            <a href="facebook.com"><i class="fab fa-facebook-square"></i></a>
+            <a href="twitter.com"><i class="fab fa-twitter-square"></i></a>
+            <a href="instagram.com"><i class="fab fa-instagram-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <div id="copyright">
+        Copyright © hesamBAKERY 2018
+      </div>
+    </footer>
+
+    <!-- jQuery and JS scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

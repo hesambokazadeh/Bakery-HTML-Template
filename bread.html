@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/images/logo-small.png" />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/91abd10b8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>JoyBakery | Bread</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-5" href="/"
+          ><img src="/assets/images/logo-horizontal.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto px-5">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Product Categories 
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/bread.html">Bread</a>
+                <a class="dropdown-item" href="/cake.html">Cake</a>
+                <a class="dropdown-item" href="/pastries.html">Pastries</a>
+                <a class="dropdown-item" href="/dessert.html">Desserts</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- HEADER -->
+    <header id="bread-header">
+      <div class="m-auto">
+        <h1 class="display-1">Bread</h1>
+      </div>
+    </header>
+
+    <div class="container-fluid text-center product-container bread">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/bread/bread1.jpg"
+            alt="bread"
+            class="img-fluid"
+          />
+          <p>
+            Whole Wheat Toast<br />
+            $8.65
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/bread/bread2.jpg"
+            alt="bread"
+            class="img-fluid"
+          />
+          <p>
+            White Toast<br />
+            $7.55
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/bread/bread3.jpg"
+            alt="bread"
+            class="img-fluid"
+          />
+          <p>
+            Whole Grain Bread<br />
+            $10.99
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/bread/bread4.jpg"
+            alt="bread"
+            class="img-fluid"
+          />
+          <p>
+            Milk Bread<br />
+            $9.88
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/bread/bread5.jpg"
+            alt="bread"
+            class="img-fluid"
+          />
+          <p>
+            Vegan Bread<br />
+            $11.55
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/bread/bread6.jpg"
+            alt="bread"
+            class="img-fluid"
+          />
+          <p>
+            Mini Bread<br />
+            $4.33
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/bread/bread7.jpg"
+            alt="bread"
+            class="img-fluid"
+          />
+          <p>
+            Corn Bread<br />
+            $6.44
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/bread/bread8.jpg"
+            alt="bread"
+            class="img-fluid"
+          />
+          <p>
+            Mini Milk Bread<br />
+            $5.00
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODALS -->
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="breadModal1"
+      aria-hidden="true"
+      id="breadModal1"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Whole Wheat Toast
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/bread/bread1.jpg" alt="bread" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $8.65</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="breadModal2"
+      aria-hidden="true"
+      id="breadModal2"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              White Toast
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/bread/bread2.jpg" alt="bread" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $7.55</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="breadModal3"
+      aria-hidden="true"
+      id="breadModal3"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Whole Grain Bread
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/bread/bread3.jpg" alt="bread" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $10.99</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="breadModal4"
+      aria-hidden="true"
+      id="breadModal4"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Milk Bread
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/bread/bread4.jpg" alt="bread" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $9.88</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="breadModal5"
+      aria-hidden="true"
+      id="breadModal5"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Vegan Bread
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/bread/bread5.jpg" alt="bread" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $11.55</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="breadModal6"
+      aria-hidden="true"
+      id="breadModal6"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Mini Bread
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/bread/bread6.jpg" alt="bread" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $4.33</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="breadModal7"
+      aria-hidden="true"
+      id="breadModal7"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Corn Bread
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/bread/bread7.jpg" alt="bread" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $6.44</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="breadModal8"
+      aria-hidden="true"
+      id="breadModal8"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Whole Wheat Toast
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/bread/bread8.jpg" alt="bread" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: $6.44</h2>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, sit adipisci ab cupiditate quasi debitis voluptatem eos
+                  deleniti repellendus accusantium corrupti, atque reprehenderit
+                  suscipit quis doloremque, exercitationem consectetur aut
+                  aperiam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+    <h2>Get In Touch With US</h2>
+     <form class="contact_us_form" autocomplete="no">
+         <fieldset>
+             <section>
+                 <label for="name">Name
+                 </label>
+                 <input type="text" id="name" />
+                 
+             </section>
+             <section>
+                 <label for="email">Email
+                 </label>
+                 <input type="email" id="email" />
+                 
+             </section>
+             <section>
+                 <label for="title">Title
+                 </label>
+                 <input type="text" id="title" />
+                 
+                 
+             </section>
+             <section>
+                 <label for="message">Message
+                 </label>
+                 <textarea type="text" id="message" ></textarea>
+                 
+             </section>
+               <section>
+             
+                 <button type="submit" >Submit</button>
+                 
+             </section>
+         </fieldset>
+     </form>
+      <div id="contacts" class="container-fluid">
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-12">
+            <h4>Contact Us</h4>
+            <p>
+              example@hesambakery.com <br />
+              +98-555-55-555
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <h4>Visit Us</h4>
+            <p>
+              221 Kashan St., Tehran, Iran
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <h4>Follow Us</h4>
+            <a href="facebook.com"><i class="fab fa-facebook-square"></i></a>
+            <a href="twitter.com"><i class="fab fa-twitter-square"></i></a>
+            <a href="instagram.com"><i class="fab fa-instagram-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <div id="copyright">
+        Copyright © hesamBAKERY 2018
+      </div>
+    </footer>
+
+    <!-- jQuery and JS scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
